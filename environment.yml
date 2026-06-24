@@ -1,5 +1,5 @@
-准备三个CONDA环境，需要的库如下
-环境1（通常为BASE）:
+准备三个conda环境
+环境一：原实验为base
 _libgcc_mutex             0.1                        main    defaults
 _openmp_mutex             5.1                       1_gnu    defaults
 absl-py                   2.1.0                    pypi_0    pypi
@@ -272,7 +272,7 @@ xz                        5.2.8                h5eee18b_0    defaults
 yarl                      1.24.2                   pypi_0    pypi
 zipp                      4.1.0                    pypi_0    pypi
 zlib                      1.2.13               h5eee18b_0    defaults
-环境2：原实验为conda activate /root/autodl-tmp/conda_envs/hw3_zero123
+环境2：原实验为conda activate gs_env
 _libgcc_mutex             0.1                        main    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 _openmp_mutex             5.1                      52_gnu    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 absl-py                   2.4.0                    pypi_0    pypi
@@ -361,7 +361,7 @@ xorg-libxdmcp             1.1.5                h9b100fa_0    https://mirrors.tun
 xorg-xorgproto            2024.1               h5eee18b_1    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 xz                        5.8.2                h448239c_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 zlib                      1.3.2                h47b2149_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-环境3：原实验为conda activate gs_env
+环境3：原实验为conda activate /root/autodl-tmp/conda_envs/hw3_zero123
 _libgcc_mutex             0.1                        main    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 _openmp_mutex             5.1                      52_gnu    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
 absl-py                   2.4.0                    pypi_0    pypi
@@ -599,3 +599,4 @@ xz                        5.8.2                h448239c_0    https://mirrors.tun
 yarl                      1.24.2                   pypi_0    pypi
 zipp                      4.1.0                    pypi_0    pypi
 zlib                      1.3.2                h47b2149_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+此外部分源代码文件需要修改，已在仓库里给出。

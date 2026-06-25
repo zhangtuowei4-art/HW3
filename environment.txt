@@ -1,4 +1,4 @@
-准备三个conda环境
+准备三个conda环境，部分源代码文件需要修改，已在modified_code里给出。
 环境一：原实验为base
 _libgcc_mutex             0.1                        main    defaults
 _openmp_mutex             5.1                       1_gnu    defaults
@@ -599,4 +599,4 @@ xz                        5.8.2                h448239c_0    https://mirrors.tun
 yarl                      1.24.2                   pypi_0    pypi
 zipp                      4.1.0                    pypi_0    pypi
 zlib                      1.3.2                h47b2149_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-此外部分源代码文件需要修改，已在仓库里给出。
+

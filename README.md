@@ -12,7 +12,7 @@
 
 # 🧭 1. 环境准备
 
-首先打开 AUTODL 并连接 SSH 终端。
+首先打开 AUTODL 并连接 SSH 终端，环境配置见environment.txt
 
 ---
 
